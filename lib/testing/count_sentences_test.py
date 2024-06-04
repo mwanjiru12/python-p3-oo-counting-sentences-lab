@@ -24,8 +24,8 @@ class TestMyString:
 
     def test_is_sentence(self):
         '''returns True if value ends with a period and False otherwise.'''
-        assert(MyString("Hello World.").is_sentence() == True)
-        assert(MyString("Hello World").is_sentence() == False)
+    assert MyString("Hello World.").is_sentence() == True
+    assert MyString("Hello World").is_sentence() == False
 
     def test_is_question(self):
         '''returns True if value ends with a question mark and False otherwise.'''
